@@ -25,6 +25,8 @@ struct ContentView: View {
                     Text("Warner Bros.")
                         .font(.subheadline)
                 }
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
                 Divider()
                 Text("About Tom FBI")
                     .font(.title2)
