@@ -9,16 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image("tom-calling")
-            .clipShape(.circle)
-            .overlay{
-                Circle()
-                    .stroke(
-                        .gray,
-                        lineWidth: 4
-                    )
-                    .shadow(radius: 7)
-            }
         VStack(alignment: .leading){
             Text("Turtle Rock")
                 .font(.title)
